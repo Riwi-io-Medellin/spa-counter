@@ -1,0 +1,23 @@
+# Ignorar la carpeta node_modules (evitar copiar dependencias locales)
+node_modules/
+
+# Ignorar archivos de configuración de Git
+.git/
+.gitignore
+.dockerignore
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales
+*.tmp
+
+# Ignorar la carpeta de distribución (dist/)
+dist/
+
+# Ignorar archivos específicos de sistema
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Ignorar archivos de entorno (si tienes un archivo .env local)
+.env
